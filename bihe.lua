@@ -156,7 +156,7 @@ end
 --     print("msg:" .. msg);
 
 --resume：第二个返回值是yield参数
---yield：函数返回值是resume参数
+
 local co = coroutine.create(function ( name )
 	for i=1,2,1 do
 		print(name)
